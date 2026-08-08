@@ -35,3 +35,42 @@ for a in range(5):
 #4 i
 #4 n
 #4 a
+
+# Real world Example of for loop: (Multiplication of table)
+print('Real World Example of nested for loop:')
+print('Print a range of table using nested for loop and Input from user:')
+tables=int(input("Enter a range of table:"))
+for table in range(1, tables+1):
+     for a in range(1,11):
+         print(f"{table} *{a}= {table*a}")
+
+#Output:
+#Real World Example of nested for loop:
+#Print a range of table using nested for loop and Input from user:
+#Enter a range of table:3
+#1 *1= 1
+#1 *2= 2
+#1 *5= 5
+#1 *6= 6
+#1 *7= 7
+#1 *8= 8
+#1 *9= 9
+#2 *1= 2
+#2 *2= 4
+#2 *4= 8
+#2 *5= 10
+#2 *6= 12
+#2 *7= 14
+#2 *8= 16
+#2 *9= 18
+#2 *10= 20
+#3 *1= 3
+#3 *2= 6
+#3 *3= 9
+#3 *4= 12
+#3 *5= 15
+#3 *6= 18
+#3 *7= 21
+#3 *8= 24
+#3 *9= 27
+#3 *10= 30
