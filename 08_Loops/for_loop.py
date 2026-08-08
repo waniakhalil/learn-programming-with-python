@@ -204,7 +204,7 @@ print('Example check according given range and condition:')
 for num in range(10):
     if num==7 or num==4:
         continue
-    print(num)
+    print(num,'\n')
 
 #Output:
 #Using Contine in loop
@@ -218,3 +218,24 @@ for num in range(10):
 #8
 #9
 #10
+
+# Real world Example of for loop:
+print('Real World Example of for loop:')
+print('Print table using for loop and Input from user:')
+tablenumber=int(input("Enter a number for table print:"))
+for a in range(1,11):
+    print(f"{tablenumber} * {a} = {tablenumber*a}")
+
+#Output:
+# Real World Example of for loop:
+#Print table using for loop and Input from user:
+#Enter a number for table print:4
+#4 * 1 = 4
+#4 * 3 = 12
+#4 * 4 = 16
+#4 * 5 = 20
+#4 * 6 = 24
+#4 * 7 = 28
+#4 * 8 = 32
+#4 * 9 = 36
+#4 * 10 = 40
