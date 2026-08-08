@@ -219,7 +219,7 @@ for num in range(10):
 #9
 #10
 
-# Real world Example of for loop:
+# Real world Example of for loop: (Multiplication of table:)
 print('Real World Example of for loop:')
 print('Print table using for loop and Input from user:')
 tablenumber=int(input("Enter a number for table print:"))
