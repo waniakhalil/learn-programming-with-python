@@ -97,7 +97,7 @@ for b in range(10,1,-2):
     print(b,'\n')
 
 # Output:
-# Example of Reverse Number Print by loop
+#Example of Reverse Number Print by loop
 #10
 #8
 #6
@@ -209,7 +209,7 @@ for num in range(10):
 #Output:
 #Using Contine in loop
 # Example check according given range and condition
-# 0
+#0
 #1
 #2
 #3 
