@@ -154,37 +154,67 @@ for tup in country:
 
 # In for loop study of break and continue:
 #   Example of break:
-print("Using break in loop:",'\n')
-print("Example 0 is unequal and not  divisible by 3 ")
+print("Using break in loop:")
+print("1.Example 0 is unequal and not  divisible by 3:")
 for num in range(10):
     if num%3!=0: # % modulus when use not complete divisble and have remainder 
                  # != indicies sign means not equal 
         break
-    print(num)
+    print(num,'\n')
 
 # Output:
 # Using break in loop
-#"Example 0 is unequal and not  divisible by 3 
+#1.Example 0 is unequal and not  divisible by 3 
 # 0
 
-print("Example 1 is equal and not  divisible by 3 ")
+print("2.Example 1 is equal and not  divisible by 3: ")
 for num in range(10):
    if num%3==1:
     break
-   print(num)
+   print(num,'\n')
 
 #Output:
-# Example 1 is unequal and not  divisible by 3 
+# 2.Example 1 is unequal and not  divisible by 3 
 # 0
 
-print("Example 0 is equal and not divisible by 3 ")
+print("3.Example 0 is equal and not divisible by 3: ")
 for num in range(10):
    if num%3==0:
     break
-   print(num)
+   print(num,'\n')
 
 #Output:
-# Example 0 is equal and not divisible by 3
+# 3.Example 0 is equal and not divisible by 3
 # not print 
 
+print("4.Example 0 is equal and not divisible by 2:")
+for num in [5,7,11,90]:
+    if num%2==0:
+     break
+    print(num,'\n')
 
+# Output:
+#4.Example 0 is equal and not divisible by 2
+# 5
+#7
+#11
+
+print('Using Continue in loop:')
+print('Example check according given range and condition:')
+for num in range(10):
+    if num==7 or num==4:
+        continue
+    print(num)
+
+#Output:
+#Using Contine in loop
+# Example check according given range and condition
+# 0
+#1
+#2
+#3 
+#5
+#6
+#8
+#9
+#10
