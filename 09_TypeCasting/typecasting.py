@@ -4,3 +4,10 @@
 # Definition:
 # Change consele string data type to another datatype like(Integer , float etc) is called type casting
 
+age = input("Enter your age: ")
+print(type(age))
+
+num = 10
+result = float(num)
+print(result)
+print(type(result))

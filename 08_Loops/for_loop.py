@@ -239,6 +239,3 @@ for a in range(1,11):
 #4 * 8 = 32
 #4 * 9 = 36
 #4 * 10 = 40
-
-for i in range(1, 6):
-    print("*" * i)
