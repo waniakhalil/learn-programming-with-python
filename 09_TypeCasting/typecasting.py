@@ -14,3 +14,9 @@ print(type(result))
 
 age = 20
 print("My age is " + str(age))
+
+num = 10.8
+result = int(num)
+print(result)  
+
+
