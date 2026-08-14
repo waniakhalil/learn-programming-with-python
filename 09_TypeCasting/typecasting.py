@@ -19,4 +19,6 @@ num = 10.8
 result = int(num)
 print(result)  
 
-
+price = "99.50"
+price = float(price)
+print(price)
