@@ -22,3 +22,7 @@ print(result)
 price = "99.50"
 price = float(price)
 print(price)
+
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+print(num1 + num2)
