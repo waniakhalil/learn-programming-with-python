@@ -4,25 +4,24 @@
 # Definition:
 # Change consele string data type to another datatype like(Integer , float etc) is called type casting
 
-age = input("Enter your age: ")
-print(type(age))
 
-num = 10
-result = float(num)
-print(result)
-print(type(result))
+# Example of Input  User Given input from consele it always type is string
+print("Example of user given input from consele and also check datatype:")
+userInput=input("Enter  a Something:")
+print(type(userInput))
 
-age = 20
-print("My age is " + str(age))
+# Output:
+#Example of user  given input from consele and also check datatype
+# Enter a  Something:
+# hello or 8
+#<class <'str'>
 
-num = 10.8
-result = int(num)
-print(result)  
+print('.Example  given user from consele always string datatyoe  convert into a another  datatype:')
+userInput=int(input("Enter a number:"))
+print(type(userInput))
 
-price = "99.50"
-price = float(price)
-print(price)
+# Output:
+#'1.Example  given user from consele always string datatyoe  convert into a another  datatype:'
+# Enter a number: 7 etc
+# class <'int'>
 
-num1 = input("Enter first number: ")
-num2 = input("Enter second number: ")
-print(num1 + num2)
