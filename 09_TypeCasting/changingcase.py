@@ -22,7 +22,11 @@ print(name.title())
 
 
 #Output:
-#Function of String for Changing Casting:
-#1.Upper Function of String
-# Pakistan
+##Function of String for Changing Casting:
+#Pakistan
+#1.Upper Function of String:
 #PAKISTAN
+#2.Lower Function of String:
+#pakistan
+#3.Title Function of String:
+#'Pakistan'
