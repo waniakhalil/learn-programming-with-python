@@ -29,14 +29,40 @@ print(mydict,'\n')
 
 #Output:
 #Syntax Example of Dinctionary:
-# Syntax Example of Dinctionary:
+#{'key': 'value', ' key': 'value', '  key': 'value'} 
 
 # Example:
 # if you want to store the information about a student 
 print("Example of dictionary:")
-student={'Name':'Wania','Age':'20','Program':'Computer Science'}
+student={'Name':'Wania','Age':'20','Gender':'Female'} # 
 print(student)
+print("Length of student Dicitionary is:") 
+print(len(student),'\n') 
 
 # Output:
 #Example of dictionary:
-# {'Name': 'Wania', 'Age': '20', 'Program': 'Computer Science'}
+# {'Name': 'Wania', 'Age': '20', 'Gender':'Female'}
+#Length of student Dicitionary is:
+# 3
+
+
+#Perform Operation of Dictionary:
+# Adding a new value in existing  dictionary:
+# syntax:
+# dictionary name[adding new key]="value of adding a new key"
+print("perform Operation of Dictionary:")
+print("1.Syntax of Adding a new value in existing dictionary:")
+mydict[' adding a new key']='value of adding a new key'
+print(mydict,'\n')
+print("1.Example of Adding a new value in existing dictionary:")
+student["email"]="waniakhalilchaudhary@gamil.com"
+print(student)
+
+
+#Output:
+#perform Operation of Dictionary:
+#1.Syntax of Adding a new value in existing dictionary:
+#{'key': 'value', ' key': 'value', '  key': 'value', ' adding a new key': 'value of adding a new key'}
+
+#1.Example of Adding a new value in existing dictionary:
+#{'Name': 'Wania', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com'}
