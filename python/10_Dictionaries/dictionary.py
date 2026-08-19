@@ -15,12 +15,21 @@
 # 2. if get value from dictionay get from key
 
 # 3. In dictionary not indexing but it key against work also pick random value also in loop 
-
+ 
+ # 4.In key and valus store any datatype also store list and tuples 
 
 # syntax:
 # Dictionary name= {key:value,.............}
 # (key:value) is  called a pair  or element 
 
+# Syntax Example:
+print("Syntax Example of Dinctionary:")
+mydict={'key':'value',' key':'value','  key':'value'}
+print(mydict,'\n')
+
+#Output:
+#Syntax Example of Dinctionary:
+# Syntax Example of Dinctionary:
 
 # Example:
 # if you want to store the information about a student 
