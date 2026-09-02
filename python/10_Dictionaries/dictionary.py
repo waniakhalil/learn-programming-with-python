@@ -59,6 +59,7 @@ print(len(student),'\n')
 # When we assigning a value in a key which does not exists,python creates the key and assigns the value in the key
 # if key already present the value is overwritten 
 # Adding value and key in dictionary thoungh key value pair 
+# adding key and value in random add  start and end and between because dictionary have not index 
 
 # syntax:
 # dictionary name[adding new key]="value of adding a new key"
@@ -69,6 +70,12 @@ print(mydict,'\n')
 print("1.Example of Adding a new value in existing dictionary:")
 student["email"]="waniakhalilchaudhary@gamil.com"
 print(student,'\n')
+print("Example of key already present the value is overwritten:")
+student["Name"]="Wania Khalil Chaudhary"
+print(student,'\n')
+print("Example key and value is also different data type is also possible not must same data type like string and integer")
+student["Phone Number"]="03123456789"
+print(student,'\n')
 
 
 #Output:
@@ -77,8 +84,11 @@ print(student,'\n')
 #{'key': 'value', ' key': 'value', '  key': 'value', ' adding a new key': 'value of adding a new key'}
 
 #1.Example of Adding a new value in existing dictionary:
-#{'Name': 'Wania', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com'}
-
+#{'Name': 'Wania ', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com'}
+# Example of key already present the value is overwritten:
+# {'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com'}
+# Example key and value is also different data type is also possible not must same data type like string and integer
+# {'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com', 'Phone Number': '03123456789'}
 
 
 # 2.Accessing information  from Dictionary 
@@ -96,3 +106,4 @@ print(student['Name'])
 # 2.Example of Accessing information from Dictionary:
 # Wania
 
+# 3.Deleting a key and value from Dictionary:
