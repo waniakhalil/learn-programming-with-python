@@ -30,18 +30,18 @@
 
 # Syntax Example:
 print("Syntax Example of Dinctionary:")
-mydict={'key':'value',' key':'value','  key':'value'}
+mydict={'1.key':'value','2.key':'value','3.key':'value'}
 print(mydict,'\n')
 
 #Output:
 #Syntax Example of Dinctionary:
-#{'key': 'value', ' key': 'value', '  key': 'value'} 
+#{'1.key': 'value', '2.key': 'value', '3.key': 'value'} 
 
 # Example:
 # if you want to store the information about a student 
 print("Example of dictionary:")
 student={'Name':'Wania','Age':'20','Gender':'Female'}  
-print(student)
+print(student,'\n')
 print("Length of student Dicitionary is:") 
 print(len(student),'\n') 
 
@@ -95,15 +95,36 @@ print(student,'\n')
 # Note:
 # if you try to acess any key which is not present in dictionary will rasie an exception of type Keyerror. 
 print("2.Syntax of Accessing information from Dictionary:")
-print("given dictionary Name and in square bracket[given key of accessing]",'\n')
+print("given dictionary Name and in square bracket[given key of accessing]")
+print(mydict['3.key'],'\n')
 print("2.Example of Accessing information from Dictionary:")
 print(student['Name'])
+print(student['Phone Number'],'\n')
 
 # Output:
 # 2.Syntax of Accessing information from Dictionary:
  #given dictionary Name and in square bracket[given key of accessing]
+ # value 
 
 # 2.Example of Accessing information from Dictionary:
 # Wania
+# 03123456789
+
+
 
 # 3.Deleting a key and value from Dictionary:
+print("3.Syntax of Deleting a key and value from Dictionary:")
+print("given del key word and round bracket(dictionary Name) then given in square bracket [want delete a key]")
+del(mydict['2.key'])
+print(mydict,'\n')
+print("3.Example of Deleting a key and value from Dictionary")
+del(student['Gender'])
+print(student,'\n')
+
+# Output:
+#3.Syntax of Deleting a key and value from Dictionary:
+#given del key word and round bracket(dictionary Name) then given in square bracket [want delete a key]
+#{'1.key': 'value', '3.key': 'value', 'adding a new key': 'value of adding a new key'}
+
+#"3.Example of Deleting a key and value from Dictionary"
+#{'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilchaudhary@gamil.com', 'Phone Number': '03123456789'}    
