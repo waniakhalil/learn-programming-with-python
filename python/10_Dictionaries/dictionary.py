@@ -1,5 +1,9 @@
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Dictionary:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..>
-# There are Three Ways to store different values or bunch of value to assign  one varible
+# Why we need Dictionary or list or tuples?
+# if we store one or more types of  value we made many varible it is time confumse and no of lines codes increase and not efficient way and access it is also not efficient
+# to solve this problem we use Dictionary or list or tuples in we store different values or elements in one variable or not in many variable 
+
+# There are Three Ways to store different values or bunch of value or elements  to assign  one varible
 # 1.list [] it is way to verify this types 
 # 2.Tuples ()
 # 3.Dictionary {}
@@ -16,13 +20,13 @@
 
 # 3. In dictionary not indexing but it key against work also pick random value also in loop 
  
- # 4.In key and valus store any datatype also store list and tuples but key and value  datatype is same is important 
+ # 4.In key and value store any datatype also store list and tuples but key and value  datatype is same is important 
 
 # 5. Beware of the fact that the keys are case sensitive,hence the following statement will throw an expection of type keyerror 
 
 # Syntax:
 # Dictionary name= {key:value,.............}
-# (key:value) is  called a pair  or element 
+# (key:value) is  called a pair  or element or key value pair
 
 # Syntax Example:
 print("Syntax Example of Dinctionary:")
@@ -36,7 +40,7 @@ print(mydict,'\n')
 # Example:
 # if you want to store the information about a student 
 print("Example of dictionary:")
-student={'Name':'Wania','Age':'20','Gender':'Female'} # 
+student={'Name':'Wania','Age':'20','Gender':'Female'}  
 print(student)
 print("Length of student Dicitionary is:") 
 print(len(student),'\n') 
@@ -50,12 +54,17 @@ print(len(student),'\n')
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Perform Operation of Dictionary:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-# 1.Adding a new value in existing  dictionary:
+# 1.Adding a new value and key in existing  dictionary:
+# Note:
+# When we assigning a value in a key which does not exists,python creates the key and assigns the value in the key
+# if key already present the value is overwritten 
+# Adding value and key in dictionary thoungh key value pair 
+
 # syntax:
 # dictionary name[adding new key]="value of adding a new key"
 print("Perform Operation of Dictionary:")
 print("1.Syntax of Adding a new value in existing dictionary:")
-mydict[' adding a new key']='value of adding a new key'
+mydict['adding a new key']='value of adding a new key'
 print(mydict,'\n')
 print("1.Example of Adding a new value in existing dictionary:")
 student["email"]="waniakhalilchaudhary@gamil.com"
@@ -86,3 +95,4 @@ print(student['Name'])
 
 # 2.Example of Accessing information from Dictionary:
 # Wania
+
