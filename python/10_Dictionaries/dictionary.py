@@ -185,13 +185,42 @@ print("age:" in student,'\n')
 #Dictionary iterating items 
 # Python provides three methods over dictionary object to iterate over dictionary values,keys and keyvalue pair 
 print("Dictionary iterating items:")
-print(student)
-print("1.Method is values:")
+print(student,'\n')
+print("1.Method is values:",'\n')
 for value in student.values():
     print(value)
+print('\n')
 
-print("2.Method is keys:")
+print("2.Method is keys:",'\n')
 for key in student.keys():
     print(key)
+print('\n')
 
-    
+print("3.Method of keyvalue pair:",'\n')
+for key,value in student.items():
+    print(key,value)
+
+#Output:  
+#Dictionary iterating items:
+#{'Name:': 'Wania Khalil Chaudhary', 'Age:': '20', 'email:': 'waniakhalilgujjar@gmail.com', 'Phone Number:': '03123456789'}       
+
+#1.Method is values:
+
+#Wania Khalil Chaudhary
+#20
+#waniakhalilgujjar@gmail.com
+#03123456789
+
+#.2Method is keys:
+
+#Name:
+#Age:
+#email:
+#Phone Number:
+
+#3.Method of keyvalue pair:
+
+#Name: Wania Khalil Chaudhary
+#Age: 20
+#email: waniakhalilgujjar@gmail.com
+#Phone Number: 03123456789
