@@ -40,14 +40,14 @@ print(mydict,'\n')
 # Example:
 # if you want to store the information about a student 
 print("Example of dictionary:")
-student={'Name':'Wania','Age':'20','Gender':'Female'}  
+student={'Name:':'Wania','Age:':'20','Gender:':'Female'}  
 print(student,'\n')
 print("Length of student Dicitionary is:") 
 print(len(student),'\n') 
 
 # Output:
 #Example of dictionary:
-# {'Name': 'Wania', 'Age': '20', 'Gender':'Female'}
+# {'Name:': 'Wania', 'Age:': '20', 'Gender:':'Female'}
 #Length of student Dicitionary is:
 # 3
 
@@ -68,13 +68,13 @@ print("1.Syntax of Adding a new value in existing dictionary:")
 mydict['adding a new key']='value of adding a new key'
 print(mydict,'\n')
 print("1.Example of Adding a new value in existing dictionary:")
-student["email"]="waniakhalilchaudhary@gamil.com"
+student["email:"]="waniakhalilchaudhary@gamil.com"
 print(student,'\n')
 print("Example of key already present the value is overwritten:")
-student["Name"]="Wania Khalil Chaudhary"
+student["Name:"]="Wania Khalil Chaudhary"
 print(student,'\n')
 print("Example key and value is also different data type is also possible not must same data type like string and integer")
-student["Phone Number"]="03123456789"
+student["Phone Number:"]="03123456789"
 print(student,'\n')
 
 
@@ -84,11 +84,11 @@ print(student,'\n')
 #{'key': 'value', ' key': 'value', '  key': 'value', ' adding a new key': 'value of adding a new key'}
 
 #1.Example of Adding a new value in existing dictionary:
-#{'Name': 'Wania ', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com'}
+#{'Name:': 'Wania ', 'Age:': '20', 'Gender:':'Female', 'email:': 'waniakhalilchaudhary@gamil.com'}
 # Example of key already present the value is overwritten:
-# {'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com'}
+# {'Name:': 'Wania Khalil Chaudhary', 'Age:': '20', 'Gender:': 'Female', 'email:': 'waniakhalilchaudhary@gamil.com'}
 # Example key and value is also different data type is also possible not must same data type like string and integer
-# {'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'Gender': 'Female', 'email': 'waniakhalilchaudhary@gamil.com', 'Phone Number': '03123456789'}
+# {'Name:': 'Wania Khalil Chaudhary', 'Age:': '20', 'Gender:': 'Female', 'email:': 'waniakhalilchaudhary@gamil.com', 'Phone Number': '03123456789'}
 
 
 # 2.Accessing information  from Dictionary 
@@ -98,8 +98,8 @@ print("2.Syntax of Accessing information from Dictionary:")
 print("given dictionary Name and in square bracket[given key of accessing]")
 print(mydict['3.key'],'\n')
 print("2.Example of Accessing information from  Dictionary:")
-print(student['Name'])
-print(student['Phone Number'],'\n')
+print(student['Name:'])
+print(student['Phone Number:'],'\n')
 
 # Output:
 # 2.Syntax of Accessing information from Dictionary:
@@ -111,32 +111,34 @@ print(student['Phone Number'],'\n')
 # 03123456789
 
 
-# 3.Deleting a key and value from Dictionary:
-print("3.Syntax of Deleting a key and value in a  Dictionary:")
+# 3.Deleting  a key and value from Dictionary: or Removing Information from Dictionaries 
+# Note:
+#Need to delete and removing a key value pair from dictionary 
+print("3.Syntax of Deleting a key and value in a  Dictionary or Removing information from Dictionaries:")
 print("given del key word and round bracket(dictionary Name) then given in square bracket [want delete a key]")
 del(mydict['2.key'])
 print(mydict,'\n')
-print("3.Example of Deleting a key and value in a  Dictionary")
-del(student['Gender'])
+print("3.Example of Deleting a key and value in a  Dictionary or Removing information from Dictionaries:")
+del(student['Gender:'])
 print(student,'\n')
 
 # Output:
-#3.Syntax of Deleting a key and value in a Dictionary:
+#3.Syntax of Deleting a key and value in a Dictionary or Removing information from Dictionaries::
 #given del key word and round bracket(dictionary Name) then given in square bracket [want delete a key]
 #{'1.key': 'value', '3.key': 'value', 'adding a new key': 'value of adding a new key'}
 
-#"3.Example of Deleting a key and value in a Dictionary"
-#{'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilchaudhary@gamil.com', 'Phone Number': '03123456789'}    
+#"3.Example of Deleting a key and value in a Dictionary or Removing information from Dictionaries:"
+#{'Name:': 'Wania Khalil Chaudhary', 'Age:': '20', 'email:': 'waniakhalilchaudhary@gamil.com', 'Phone Number:': '03123456789'}    
 
 
 #4.Updating the key and value from dictionary
 #4.Syntax of Updating a key and value from Dictionary:
-print("4.Syntax of Updating the key and value in a Dictionary")
+print("4.Syntax of Updating the key and value in a Dictionary:")
 print("Dictionary  name in square bracket[key name ] assign operator and value of update in a key")
 mydict["3.key"]="value 2"
 print(mydict,'\n')
-print("4.Updating the key and value in a dictionary")
-student["email"]="waniakhalilgujjar@gmail.com"
+print("4.Updating the key and value in a dictionary:")
+student["email:"]="waniakhalilgujjar@gmail.com"
 print(student,'\n')
 
 
@@ -146,11 +148,11 @@ print(student,'\n')
 #{'1.key': 'value', '3.key': 'value 2', 'adding a new key': 'value of adding a new key'}
 
 #4.Updating the key and value in a dictionary
-#{'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilgujjar@gmail.com', 'Phone Number': '03123456789'}
+#{'Name:': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilgujjar@gmail.com', 'Phone Number': '03123456789'}
 
 
 #Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary 
-print("Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary ")
+print("Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary:")
 print("mynum={1:100,2:200,3:300,4:400,1:10000}")
 mynum={1:100,2:200,3:300,4:400,1:1000}
 print(mynum,'\n')
@@ -161,21 +163,35 @@ print(mynum,'\n')
 #{1: 1000, 2: 200, 3: 300, 4: 400}
 
 # Check key is access in a dictionary
-print("Synax of Check key is a access in a dictionary")
-print("key name in Dictionary name and in is operator to access a key and output show in true means is acess key in dictionary and  false not key in a dictionary")
+print("Synax of Check key is a access in a dictionary:")
+print("key name in Dictionary name and in is operator to access a key and output show in true means is acess key in dictionary and  false not key in a dictionary:")
 print("1.key in mydict")
 print("1.key" in mydict)
-print("Age in student")
-print("Age" in student)
-print("age in student")
-print("age" in student)
+print("Age: in student")
+print("Age:" in student)
+print("age: in student")
+print("age:" in student,'\n')
 
 # Output:
-#Synax of Check key is a acessing in a dictionary
-#key name in Dictionary name and output show in true means is acess key in dictionary and  false not key in a dictionary
+#Synax of Check key is a access in a dictionary
+#key name in Dictionary name and in is operator to access a key and output show in true means is access key in dictionary and  false not key in a dictionary
 #1.key in mydict
 #True
-#Age in student
+#Age: in student
 #True
-#age in student
+#age: in student
 #False
+
+#Dictionary iterating items 
+# Python provides three methods over dictionary object to iterate over dictionary values,keys and keyvalue pair 
+print("Dictionary iterating items:")
+print(student)
+print("1.Method is values:")
+for value in student.values():
+    print(value)
+
+print("2.Method is keys:")
+for key in student.keys():
+    print(key)
+
+    
