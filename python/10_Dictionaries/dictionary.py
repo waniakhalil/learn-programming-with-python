@@ -153,12 +153,29 @@ print(student,'\n')
 print("Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary ")
 print("mynum={1:100,2:200,3:300,4:400,1:10000}")
 mynum={1:100,2:200,3:300,4:400,1:1000}
-print(mynum)
+print(mynum,'\n')
 
 # Output:
 #Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary
 #mynum={1:100,2:200,3:300,4:400,1:10000}
 #{1: 1000, 2: 200, 3: 300, 4: 400}
 
-# Check key is acessing in a dictionary
-print
+# Check key is access in a dictionary
+print("Synax of Check key is a access in a dictionary")
+print("key name in Dictionary name and in is operator to access a key and output show in true means is acess key in dictionary and  false not key in a dictionary")
+print("1.key in mydict")
+print("1.key" in mydict)
+print("Age in student")
+print("Age" in student)
+print("age in student")
+print("age" in student)
+
+# Output:
+#Synax of Check key is a acessing in a dictionary
+#key name in Dictionary name and output show in true means is acess key in dictionary and  false not key in a dictionary
+#1.key in mydict
+#True
+#Age in student
+#True
+#age in student
+#False
