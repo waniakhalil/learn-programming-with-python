@@ -135,7 +135,7 @@ print("4.Syntax of Updating the key and value in a Dictionary")
 print("Dictionary  name in square bracket[key name ] assign operator and value of update in a key")
 mydict["3.key"]="value 2"
 print(mydict,'\n')
-print("Updating the key and value in a dictionary")
+print("4.Updating the key and value in a dictionary")
 student["email"]="waniakhalilgujjar@gmail.com"
 print(student,'\n')
 
@@ -145,5 +145,20 @@ print(student,'\n')
 #Dictionary  name in square bracket[key name ] assign operator and value of update in a key
 #{'1.key': 'value', '3.key': 'value 2', 'adding a new key': 'value of adding a new key'}
 
-#Updating the key and value in a dictionary
+#4.Updating the key and value in a dictionary
 #{'Name': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilgujjar@gmail.com', 'Phone Number': '03123456789'}
+
+
+#Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary 
+print("Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary ")
+print("mynum={1:100,2:200,3:300,4:400,1:10000}")
+mynum={1:100,2:200,3:300,4:400,1:1000}
+print(mynum)
+
+# Output:
+#Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary
+#mynum={1:100,2:200,3:300,4:400,1:10000}
+#{1: 1000, 2: 200, 3: 300, 4: 400}
+
+# Check key is acessing in a dictionary
+print
