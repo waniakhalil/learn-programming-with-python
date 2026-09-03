@@ -22,7 +22,7 @@ print(students,'\n')
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}]
 
 # <<<<<<<<<<<<<<<<<<<<<<Perform list Operation on Creating a list of dictionary>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-#Accessing list membrane from a list of dictionary
+#1.Accessing list membrane from a list of dictionary
 print("1.Syntax of Accessing list membrane from a list of dictionary")
 print("list name [index of list][dictionary key name]")
 print(mydic[0]['1.key:'],'\n')
@@ -38,3 +38,19 @@ print(students[0]['Name:'],'\n')
 #Wania
 
 
+#2.Adding a new membrane in list of  dictionary
+print("2.Syntax of Adding a new membrane in list of dictionary")
+print("list name dot(.)append function then [adding a new key: adding a new value]")
+mydic.append({"adding a new key:":"adding a new value"})
+print(mydic,'\n')
+print("2.Example of Adding a new membrane in list of dictionary")
+students.append({"email:":"waniakhalilchaudhary@gmail.com"})
+print(students,'\n')
+
+#Output:
+#2.Syntax of Adding a new membrane in list of dictionary
+#list name dot(.)append function then [adding a new key: adding a new value]
+#[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}, {'adding a new key:': 'adding a new value'}]
+
+#2.Example of Adding a new membrane in list of dictionary
+#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}, {'email:': 'waniakhalilchaudhary@gmail.com'}]
