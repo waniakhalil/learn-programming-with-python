@@ -111,7 +111,7 @@ print(student['Phone Number:'],'\n')
 # 03123456789
 
 
-# 3.Deleting  a key and value from Dictionary: or Removing Information from Dictionaries 
+# 3.Deleting  a key and value from Dictionary: or Removing Information from Dictionaries: 
 # Note:
 #Need to delete and removing a key value pair from dictionary 
 print("3.Syntax of Deleting a key and value in a  Dictionary or Removing information from Dictionaries:")
@@ -143,26 +143,26 @@ print(student,'\n')
 
 
 # Output:
-#4.Updating the key and value from dictionary
+#4.Updating the key and value from dictionary:
 #Dictionary  name in square bracket[key name ] assign operator and value of update in a key
 #{'1.key': 'value', '3.key': 'value 2', 'adding a new key': 'value of adding a new key'}
 
-#4.Updating the key and value in a dictionary
+#4.Updating the key and value in a dictionary:
 #{'Name:': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilgujjar@gmail.com', 'Phone Number': '03123456789'}
 
 
-#Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary 
+#Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary:
 print("Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary:")
 print("mynum={1:100,2:200,3:300,4:400,1:10000}")
 mynum={1:100,2:200,3:300,4:400,1:1000}
 print(mynum,'\n')
 
 # Output:
-#Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary
+#Example of one or more key same name is overwritten last same name key assign value in a last same key in a dictionary:
 #mynum={1:100,2:200,3:300,4:400,1:10000}
 #{1: 1000, 2: 200, 3: 300, 4: 400}
 
-# Check key is access in a dictionary
+# Check key is access in a dictionary:
 print("Synax of Check key is a access in a dictionary:")
 print("key name in Dictionary name and in is operator to access a key and output show in true means is acess key in dictionary and  false not key in a dictionary:")
 print("1.key in mydict")
@@ -173,8 +173,8 @@ print("age: in student")
 print("age:" in student,'\n')
 
 # Output:
-#Synax of Check key is a access in a dictionary
-#key name in Dictionary name and in is operator to access a key and output show in true means is access key in dictionary and  false not key in a dictionary
+#Synax of Check key is a access in a dictionary:
+#key name in Dictionary name and in is operator to access a key and output show in true means is access key in dictionary and  false not key in a dictionary:
 #1.key in mydict
 #True
 #Age: in student
@@ -182,7 +182,7 @@ print("age:" in student,'\n')
 #age: in student
 #False
 
-#Dictionary iterating items 
+#Dictionary iterating items:
 # Python provides three methods over dictionary object to iterate over dictionary values,keys and keyvalue pair 
 print("Dictionary iterating items:")
 print(student,'\n')
