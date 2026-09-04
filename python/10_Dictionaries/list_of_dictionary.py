@@ -66,6 +66,16 @@ print("2(i).Example of Adding a new membrane in list of dictionary using append 
 students.append({"email:":"waniakhalilchaudhary@gmail.com"})
 print(students,'\n')
 
+#2(ii).Insert Function to adds a new membrane in list of dictionary:
+print("2(ii).Syntax of Adding a new membrane in list of dictionary using insert function:")
+print("list name dot(.) insert function({adds index ,membrane you want add })")
+mydic.insert(4,{"adds a new key:":"adds a new value"})
+print(mydic,'\n')
+print("2(ii).Example of Adding a new membrane in list of dictionary using insert function:")
+students.insert(4,{"Phone Number:":"031234567"})
+print(students,"\n")
+
+
 #Output:
 #2.Syntax of Adding a new membrane in list of dictionary using append function:
 #list name dot(.)append function then [adding a new key: adding a new value]
@@ -79,6 +89,21 @@ print(students,'\n')
 # {'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'},
 #{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'},
 # {'email:': 'waniakhalilchaudhary@gmail.com'}]
+
+#2.(ii).Syntax of Adding a new membrane in list of dictionary using insert function:
+#list name dot(.) insert function({adds index ,membrane you want add })
+#[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}, 
+# {'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'},
+#  {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}, 
+# {'adding a new key:': 'adding a new value'}, 
+# {'adds a new key:': 'adds a new value'}]
+
+#2(ii).Example of Adding a new membrane in list of dictionary using insert function:
+#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'},
+#  {'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'},
+#  {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}, 
+# {'email:': 'waniakhalilchaudhary@gmail.com'}, 
+# {'Phone Number:': '031234567'}]
 
 
 #3.Deleting the membrane in list of a dictionary:
@@ -124,30 +149,41 @@ print(y,"\n")
 #delete fucntion (list of a dictionary name[given index of membrane want delete])
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}
 #{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
-#{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}]
+#{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}
+# {'adds a new key:': 'adds a new value'}]
 
 #3(i).Example of Delete the membrane in list of a dictionary using delete function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 #{'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'}
-#{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}]
+#{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
+ #{'Phone Number:': '031234567'}]
 
 #3(ii).Syntax of Remove the membrane in list of a dictionary using Remove function:
 #list of dictionary name . dot remove function(given membrane you want to remove)
-#[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}]        
+#[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
+# {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'} 
+# {'adds a new key:': 'adds a new value'}]
+
 
 #3(ii).Example of Remove the membrane in list of a dictionary using Remove function:
-#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}, {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}]
+#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'},
+# {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
+#{'Phone Number:': '031234567'}]
+
 
 #3(iii).Syntax of Popping the membrane of list of a dictionary using pop function:
 #list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )
 #Pop last membrane of list of dictionary by default:
-#[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}]
+#[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}
+#{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}]       
+
 #Pop by index of list of dictionary:
 #{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}
 
 #3(iii).Example of Popping the membrane of list of a dictionary using pop function:
 #Pop last membrane of list of dictionary by default:
-#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}]
+#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
+#{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}]
 #Pop by index of list of dictionary:
 #{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 
