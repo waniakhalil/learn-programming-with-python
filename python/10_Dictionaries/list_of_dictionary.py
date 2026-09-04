@@ -1,6 +1,6 @@
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Creating a list of dictionaries >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #To mimic a database we can create a list of dictionary ,where list be an in memory database
-#  and each dictionary object will represent a unique record 
+#  and each dictionary object will represent a unique record
 # create a list members means key value pair is dictionary 
 
 # Example of Creating a list of dictionaries:
@@ -8,11 +8,14 @@
 print("Syntax of Creating a list of dictionary:")
 print("[] list square bracket then a dictionary crual bracket{key:value}")
 mydic=[
-    {'1.key:':'value','2.key:':'value','3.key:':'value'},
-    {'i.key:':'value','ii.key:':'value','iii.key:':'value'},
+       {'1.key:':'value','2.key:':'value','3.key:':'value'},
+# index             0
+    {'i.key:':'value','ii.key:':'value','iii.key:':'value'},\
+#                    1 
     {'1,key:':'value','2,key:':'value','3,key:':'value'}
+#                    2 
     ]
-# index              0                 index because list have index not have dictionary we create list of a dictionary
+# index because list have index not have dictionary we create list of a dictionary
 print(mydic,'\n')
 print("Example of Creating a list of dictionary:")
 students=[
@@ -53,11 +56,13 @@ print(students[0]['Name:'],'\n')
 
 
 #2.Adding a new membrane in list of  dictionary:
-print("2.Syntax of Adding a new membrane in list of dictionary using append function:")
+#There are three ways to  adds the membrane in list of dictionary
+#2(i).Append Function to adds a new membrane in list of dictionary :
+print("2(i).Syntax of Adding a new membrane in list of dictionary using append function:")
 print("list name dot(.)append function then [adding a new key: adding a new value]")
 mydic.append({"adding a new key:":"adding a new value"})
 print(mydic,'\n')
-print("2.Example of Adding a new membrane in list of dictionary using append function:")
+print("2(i).Example of Adding a new membrane in list of dictionary using append function:")
 students.append({"email:":"waniakhalilchaudhary@gmail.com"})
 print(students,'\n')
 
