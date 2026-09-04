@@ -66,31 +66,31 @@ print("2(i).Example of Adding a new membrane in list of dictionary using append 
 students.append({"email:":"waniakhalilchaudhary@gmail.com"})
 print(students,'\n')
 
-#2(ii).Insert Function to adds a new membrane in list of dictionary:
-print("2(ii).Syntax of Adding a new membrane in list of dictionary using insert function:")
+#2(ii).Insert Function to adds a new membrane in list of dictionary with index :
+print("2(ii).Syntax of Adding a new membrane in list of dictionary with index using insert function:")
 print("list name dot(.) insert function({adds index ,membrane you want add })")
 mydic.insert(4,{"adds a new key:":"adds a new value"})
 print(mydic,'\n')
-print("2(ii).Example of Adding a new membrane in list of dictionary using insert function:")
+print("2(ii).Example of Adding a new membrane in list of dictionary with index using  insert function:")
 students.insert(4,{"Phone Number:":"031234567"})
 print(students,"\n")
 
 
 #Output:
-#2.Syntax of Adding a new membrane in list of dictionary using append function:
+#2(i).Syntax of Adding a new membrane in list of dictionary using append function:
 #list name dot(.)append function then [adding a new key: adding a new value]
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}, 
 # {'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'},
 # {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'},
 # {'adding a new key:': 'adding a new value'}]
 
-#2.Example of Adding a new membrane in list of dictionary using append function:
+#2(i).Example of Adding a new membrane in list of dictionary using append function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}, 
 # {'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'},
 #{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'},
 # {'email:': 'waniakhalilchaudhary@gmail.com'}]
 
-#2.(ii).Syntax of Adding a new membrane in list of dictionary using insert function:
+#2(ii).Syntax of Adding a new membrane in list of dictionary  with index using insert function:
 #list name dot(.) insert function({adds index ,membrane you want add })
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}, 
 # {'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'},
@@ -98,7 +98,7 @@ print(students,"\n")
 # {'adding a new key:': 'adding a new value'}, 
 # {'adds a new key:': 'adds a new value'}]
 
-#2(ii).Example of Adding a new membrane in list of dictionary using insert function:
+#2(ii).Example of Adding a new membrane in list of dictionary with index using insert function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'},
 #  {'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'},
 #  {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}, 
