@@ -8,6 +8,7 @@
 print("Syntax of Creating a list of dictionary:")
 print("[] list square bracket then a dictionary crual bracket{key:value}")
 mydic=[{'1.key:':'value','2.key:':'value','3.key:':'value'}]
+# index              0                 index because list have index not have dictionary we create list of a dictionary
 print(mydic,'\n')
 print("Example of Creating a list of dictionary:")
 students=[{'Name:':'Wania','Age:':'20','Gender:':'Female'}]
@@ -55,4 +56,24 @@ print(students,'\n')
 #2.Example of Adding a new membrane in list of dictionary using append function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}, {'email:': 'waniakhalilchaudhary@gmail.com'}]
 
-#3. Deleting and removing the membrane in list of a dictionary:
+
+#3.Deleting the membrane in list of a dictionary:
+# There are three ways of deleting the membrane in list of a dictionary
+# Three ways delete a permenent membrane in list of a dictionary
+#3(i).Deletethe membrane in list of a dictionary:
+print("3(i).Syntax of Delete the membrane in list of a dictionary using delete function:")
+print('delete fucntion (list of a dictionary name[given index of membrane want delete])')
+del(mydic[1])
+print(mydic,'\n')
+print("3(i).Example of Delete the membrane in list of a dictionary using delete function:")
+del(students[1])
+print(students,'\n')
+
+# Output:
+#3(i).Syntax of Delete the membrane in list of a dictionary using delete function:
+#delete fucntion (list of a dictionary name[given index of membrane want delete])
+#[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}]
+
+#3(i).Example of Delete the membrane in list of a dictionary using delete function:
+#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}]
+
