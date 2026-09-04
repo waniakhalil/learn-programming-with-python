@@ -97,6 +97,23 @@ print("3(ii).Example of Remove the membrane in list of a dictionary using Remove
 students.remove({'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'})
 print(students,"\n")
 
+# 3(iii).Popping the membrane of list of a dictionary:
+print("3(iii).Syntax of Popping the membrane of list of a dictionary using pop function:")
+print("list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )")
+print("Pop last membrane of list of dictionary by default:")
+mydic.pop()
+print(mydic)
+print("Pop by index of list of dictionary:")
+popping=mydic.pop(0)
+print(popping,"\n")
+print("3(iii).Example of Popping the membrane of list of a dictionary using pop function:")
+print("Pop last membrane of list of dictionary by default:")
+students.pop()
+print(students)
+print("Pop by index of list of dictionary:")
+y=students.pop(0)
+print(y,"\n")
+
 # Output:
 #3(i).Syntax of Delete the membrane in list of a dictionary using delete function:
 #delete fucntion (list of a dictionary name[given index of membrane want delete])
@@ -115,5 +132,18 @@ print(students,"\n")
 
 #3(ii).Example of Remove the membrane in list of a dictionary using Remove function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}, {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}]
+
+#3(iii).Syntax of Popping the membrane of list of a dictionary using pop function:
+#list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )
+#Pop last membrane of list of dictionary by default:
+#[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}]
+#Pop by index of list of dictionary:
+#{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}
+
+#3(iii).Example of Popping the membrane of list of a dictionary using pop function:
+#Pop last membrane of list of dictionary by default:
+#[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}]
+#Pop by index of list of dictionary:
+#{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 
 
