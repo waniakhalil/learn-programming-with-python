@@ -5,6 +5,7 @@
 
 # Example of Creating a list of dictionaries:
 #Create a list membrane of a dictionary :
+print("Create a list membrane of a dictionary:")
 print("Syntax of Creating a list of dictionary:")
 print("[] list square bracket then a dictionary crual bracket{key:value}")
 mydic=[
@@ -26,6 +27,7 @@ students=[
 print(students,'\n')
 
 #Output:
+#Create a list membrane of a dictionary:
 #Syntax of Creating a list of dictionary:
 #[] list square bracket then a dictionary crual bracket{key:value}
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'},
@@ -40,15 +42,17 @@ print(students,'\n')
 
 # <<<<<<<<<<<<<<<<<<<<<<Perform list Operation on Creating a list of dictionary>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #1.Accessing list membrane from a list of dictionary:
+print("1.Accessing list membrane from a list of dictionary:")
 print("1.Syntax of Accessing list membrane from a list of dictionary:")
-print("list name [index of list][dictionary key name]")
+print("list of dictionary name [index of list][dictionary key name]")
 print(mydic[0]['1.key:'],'\n')
 print("1.Example of Accessing list membrane from a list of dictionary:")
 print(students[0]['Name:'],'\n')
 
 #Output:
+#1.Accessing list membrane from a list of dictionary:
 #1.Syntax of Accessing list membrane from a list of dictionary:
-#list name [index of list][dictionary key name]
+#list f dictionary name [index of list][dictionary key name]
 #value
 
 #1.Example of Accessing list membrane from a list of dictionary:
@@ -57,9 +61,10 @@ print(students[0]['Name:'],'\n')
 
 #2.Adding a new membrane in list of  dictionary:
 #There are three ways to  adds the membrane in list of dictionary
-#2(i).Append Function to adds a new membrane in list of dictionary :
+#2(i).Append Function to adds a new membrane in list of dictionary:
+print("2(i).Append Function to adds a new membrane in list of dictionary:")
 print("2(i).Syntax of Adding a new membrane in list of dictionary using append function:")
-print("list name dot(.)append function then [adding a new key: adding a new value]")
+print("list of dictionary name dot(.)append function then [adding a new key: adding a new value]")
 mydic.append({"adding a new key:":"adding a new value"})
 print(mydic,'\n')
 print("2(i).Example of Adding a new membrane in list of dictionary using append function:")
@@ -67,18 +72,24 @@ students.append({"email:":"waniakhalilchaudhary@gmail.com"})
 print(students,'\n')
 
 #2(ii).Insert Function to adds a new membrane in list of dictionary with index :
+print("2(ii).Insert Function to adds a new membrane in list of dictionary with index:")
 print("2(ii).Syntax of Adding a new membrane in list of dictionary with index using insert function:")
-print("list name dot(.) insert function({adds index ,membrane you want add })")
+print("list of dictionary name dot(.) insert function({adds index ,membrane you want add })")
 mydic.insert(4,{"adds a new key:":"adds a new value"})
 print(mydic,'\n')
 print("2(ii).Example of Adding a new membrane in list of dictionary with index using  insert function:")
 students.insert(4,{"Phone Number:":"031234567"})
 print(students,"\n")
 
+#2(iii).Extend function to add a one or more membrane in list of dictionary:
+#print("2(iii).Extend function to add a one or more membrane in list of dictionary:")
+#print("2(iii).Syntax of Extend function to add one or more membrane in list of dictionary:")
+#print("list of dictionary")
 
 #Output:
+#2(i).Append Function to adds a new membrane in list of dictionary :
 #2(i).Syntax of Adding a new membrane in list of dictionary using append function:
-#list name dot(.)append function then [adding a new key: adding a new value]
+#list f dictionary name dot(.)append function then [adding a new key: adding a new value]
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}, 
 # {'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'},
 # {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'},
@@ -90,8 +101,9 @@ print(students,"\n")
 #{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'},
 # {'email:': 'waniakhalilchaudhary@gmail.com'}]
 
+#2(ii).Insert Function to adds a new membrane in list of dictionary with index :
 #2(ii).Syntax of Adding a new membrane in list of dictionary  with index using insert function:
-#list name dot(.) insert function({adds index ,membrane you want add })
+#list f dictionary name dot(.) insert function({adds index ,membrane you want add })
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}, 
 # {'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'},
 #  {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}, 
@@ -109,7 +121,8 @@ print(students,"\n")
 #3.Deleting the membrane in list of a dictionary:
 # There are three ways of deleting the membrane in list of a dictionary
 # Three ways delete a permenent membrane in list of a dictionary
-#3(i).Delete the membrane in list of a dictionary:
+#3(iii).Delete Function the membrane in list of a dictionary:
+print("3(iii).Delete Function the membrane in list of a dictionary:")
 print("3(i).Syntax of Delete the membrane in list of a dictionary using delete function:")
 print('delete fucntion (list of a dictionary name[given index of membrane want delete])')
 del(mydic[3])
@@ -118,7 +131,8 @@ print("3(i).Example of Delete the membrane in list of a dictionary using delete 
 del(students[3])
 print(students,'\n')
 
-#3.(ii)Remove the membrane in list of a dictionary:
+#3.(ii)Remove Function the membrane in list of a dictionary:
+print("3.(ii)Remove Function the membrane in list of a dictionary:")
 print("3(ii).Syntax of Remove the membrane in list of a dictionary using Remove function:")
 print("list of dictionary name . dot remove function(given membrane you want to remove)")
 mydic.remove({'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'})
@@ -127,7 +141,8 @@ print("3(ii).Example of Remove the membrane in list of a dictionary using Remove
 students.remove({'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'})
 print(students,"\n")
 
-# 3(iii).Popping the membrane of list of a dictionary:
+# 3(iii).Popping Function the membrane of list of a dictionary:
+print("3(iii).Popping Function the membrane of list of a dictionary:")
 print("3(iii).Syntax of Popping the membrane of list of a dictionary using pop function:")
 print("list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )")
 print("Pop last membrane of list of dictionary by default:")
@@ -145,6 +160,7 @@ y=students.pop(0)
 print(y,"\n")
 
 # Output:
+#3(iii).Delete Function the membrane in list of a dictionary:
 #3(i).Syntax of Delete the membrane in list of a dictionary using delete function:
 #delete fucntion (list of a dictionary name[given index of membrane want delete])
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}
@@ -158,6 +174,7 @@ print(y,"\n")
 #{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
  #{'Phone Number:': '031234567'}]
 
+#3.(ii)Remove Function the membrane in list of a dictionary:
 #3(ii).Syntax of Remove the membrane in list of a dictionary using Remove function:
 #list of dictionary name . dot remove function(given membrane you want to remove)
 #[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
@@ -170,7 +187,7 @@ print(y,"\n")
 # {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
 #{'Phone Number:': '031234567'}]
 
-
+#3(iii).Popping Function the membrane of list of a dictionary:
 #3(iii).Syntax of Popping the membrane of list of a dictionary using pop function:
 #list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )
 #Pop last membrane of list of dictionary by default:
