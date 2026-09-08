@@ -64,6 +64,7 @@ print(len(student),'\n')
 # syntax:
 # dictionary name[adding new key]="value of adding a new key"
 print("Perform Operation of Dictionary:")
+print("1.Adding a new value and key in existing  dictionary:")
 print("1.Syntax of Adding a new value in existing dictionary:")
 mydict['adding a new key']='value of adding a new key'
 print(mydict,'\n')
@@ -80,6 +81,7 @@ print(student,'\n')
 
 #Output:
 #perform Operation of Dictionary:
+#1.Adding a new value and key in existing  dictionary:
 #1.Syntax of Adding a new value in existing dictionary:
 #{'key': 'value', ' key': 'value', '  key': 'value', ' adding a new key': 'value of adding a new key'}
 
@@ -91,9 +93,10 @@ print(student,'\n')
 # {'Name:': 'Wania Khalil Chaudhary', 'Age:': '20', 'Gender:': 'Female', 'email:': 'waniakhalilchaudhary@gamil.com', 'Phone Number': '03123456789'}
 
 
-# 2.Accessing information  from Dictionary 
+# 2.Accessing information  from Dictionary: 
 # Note:
 # if you try to acess any key which is not present in dictionary will rasie an exception of type Keyerror. 
+print("2.Accessing information  from Dictionary:")
 print("2.Syntax of Accessing information from Dictionary:")
 print("given dictionary Name and in square bracket[given key of accessing]")
 print(mydict['3.key'],'\n')
@@ -102,6 +105,7 @@ print(student['Name:'])
 print(student['Phone Number:'],'\n')
 
 # Output:
+#2.Accessing information  from Dictionary: 
 # 2.Syntax of Accessing information from Dictionary:
  #given dictionary Name and in square bracket[given key of accessing]
  # value 
@@ -114,6 +118,7 @@ print(student['Phone Number:'],'\n')
 # 3.Deleting  a key and value from Dictionary: or Removing Information from Dictionaries: 
 # Note:
 #Need to delete and removing a key value pair from dictionary 
+print("3.Deleting  a key and value from Dictionary: or Removing Information from Dictionaries:")
 print("3.Syntax of Deleting a key and value in a  Dictionary or Removing information from Dictionaries:")
 print("given del key word and round bracket(dictionary Name) then given in square bracket [want delete a key]")
 del(mydict['2.key'])
@@ -123,6 +128,7 @@ del(student['Gender:'])
 print(student,'\n')
 
 # Output:
+#3.Deleting  a key and value from Dictionary: or Removing Information from Dictionaries:
 #3.Syntax of Deleting a key and value in a Dictionary or Removing information from Dictionaries::
 #given del key word and round bracket(dictionary Name) then given in square bracket [want delete a key]
 #{'1.key': 'value', '3.key': 'value', 'adding a new key': 'value of adding a new key'}
@@ -131,13 +137,14 @@ print(student,'\n')
 #{'Name:': 'Wania Khalil Chaudhary', 'Age:': '20', 'email:': 'waniakhalilchaudhary@gamil.com', 'Phone Number:': '03123456789'}    
 
 
-#4.Updating the key and value from dictionary
+#4.Updating the key and value from dictionary:
 #4.Syntax of Updating a key and value from Dictionary:
+print("4.Updating the key and value from dictionary:")
 print("4.Syntax of Updating the key and value in a Dictionary:")
 print("Dictionary  name in square bracket[key name ] assign operator and value of update in a key")
 mydict["3.key"]="value 2"
 print(mydict,'\n')
-print("4.Updating the key and value in a dictionary:")
+print("4.Example of Updating the key and value in a dictionary:")
 student["email:"]="waniakhalilgujjar@gmail.com"
 print(student,'\n')
 
@@ -147,7 +154,7 @@ print(student,'\n')
 #Dictionary  name in square bracket[key name ] assign operator and value of update in a key
 #{'1.key': 'value', '3.key': 'value 2', 'adding a new key': 'value of adding a new key'}
 
-#4.Updating the key and value in a dictionary:
+#4. Example of Updating the key and value in a dictionary:
 #{'Name:': 'Wania Khalil Chaudhary', 'Age': '20', 'email': 'waniakhalilgujjar@gmail.com', 'Phone Number': '03123456789'}
 
 
@@ -163,6 +170,7 @@ print(mynum,'\n')
 #{1: 1000, 2: 200, 3: 300, 4: 400}
 
 # Check key is access in a dictionary:
+print(" Check key is access in a dictionary:")
 print("Synax of Check key is a access in a dictionary:")
 print("key name in Dictionary name and in is operator to access a key and output show in true means is acess key in dictionary and  false not key in a dictionary:")
 print("1.key in mydict")
@@ -173,6 +181,7 @@ print("age: in student")
 print("age:" in student,'\n')
 
 # Output:
+# Check key is access in a dictionary:
 #Synax of Check key is a access in a dictionary:
 #key name in Dictionary name and in is operator to access a key and output show in true means is access key in dictionary and  false not key in a dictionary:
 #1.key in mydict
