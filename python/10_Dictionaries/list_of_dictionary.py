@@ -250,4 +250,24 @@ print(y,"\n")
 #Pop by index of list of dictionary:
 #{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Other More Function in a list of dictionary:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+#1.Check the length of the list of dictionary:
+print("1.Check the length of the list of dictionary:")
+print("1.Syntax of check the lenght of the list of dictionary:")
+print("lenght function len(list of a dictionary name)")
+print("Check the Lenght of mydic:")
+print(len(mydic),"\n")
+print("Example of lenght of students: ")
+print(len(students),"\n")
+
+#Output:
+#1.Check the length of the list of dictionary:
+#1.Syntax of check the lenght of the list of dictionary:
+#lenght function len(list of a dictionary name)
+#Check the Lenght of mydic:
+#3
+
+#Example of lenght of students:
+#3
 
