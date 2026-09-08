@@ -41,6 +41,7 @@ print(students,'\n')
 
 
 # <<<<<<<<<<<<<<<<<<<<<<Perform list Operation on Creating a list of dictionary>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 #1.Accessing list membrane from a list of dictionary:
 print("1.Accessing list membrane from a list of dictionary:")
 print("1.Syntax of Accessing list membrane from a list of dictionary:")
@@ -82,9 +83,18 @@ students.insert(4,{"Phone Number:":"031234567"})
 print(students,"\n")
 
 #2(iii).Extend function to add a one or more membrane in list of dictionary:
-#print("2(iii).Extend function to add a one or more membrane in list of dictionary:")
-#print("2(iii).Syntax of Extend function to add one or more membrane in list of dictionary:")
-#print("list of dictionary")
+print("2(iii).Extend function to add a one or more membrane in list of dictionary:")
+print("2(iii).Syntax of Extend function to add one or more membrane in list of dictionary:")
+print("list of dictionary name dot(.) extend function({add a new one or more key:add a new one or more value})")
+mydic.extend([
+    {"1.add a key:":"1.add a value"},
+    {"2.add a key:":"2.add a value"}])
+print(mydic,"\n")
+print("2(iii).Example of Add one or more membrane in list of dictionary:")
+students.extend([
+    {"Name:":"Ubaidullah","Age:":"10","Gender:":"Male"},
+    {"Name:":"Merub","Age":"9","Gender":"Female"}])
+print(students,"\n")
 
 #Output:
 #2(i).Append Function to adds a new membrane in list of dictionary :
@@ -117,6 +127,26 @@ print(students,"\n")
 # {'email:': 'waniakhalilchaudhary@gmail.com'}, 
 # {'Phone Number:': '031234567'}]
 
+#2(iii).Extend function to add a one or more membrane in list of dictionary:
+#2(iii).Syntax of Extend function to add one or more membrane in list of dictionary:
+#list of dictionary name dot(.) extend function({add a new one or more key:add a new one or more value})
+#[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'},
+#{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
+#{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}, 
+#{'adding a new key:': 'adding a new value'},
+# {'adds a new key:': 'adds a new value'}, 
+# {'1.add a key:': '1.add a value'}, 
+# {'2.add a key:': '2.add a value'}]
+
+#2(iii).Example of Add one or more membrane in list of dictionary:
+#{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}, 
+#{'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'},
+# {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}, 
+# {'email:': 'waniakhalilchaudhary@gmail.com'},
+# {'Phone Number:': '031234567'},
+# {'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'}, 
+# {'Name:': 'Merub', 'Age': '9', 'Gender': 'Female'}]
+
 
 #3.Deleting the membrane in list of a dictionary:
 # There are three ways of deleting the membrane in list of a dictionary
@@ -147,14 +177,14 @@ print("3(iii).Syntax of Popping the membrane of list of a dictionary using pop f
 print("list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )")
 print("Pop last membrane of list of dictionary by default:")
 mydic.pop()
-print(mydic)
+print(mydic,"\n")
 print("Pop by index of list of dictionary:")
 popping=mydic.pop(0)
 print(popping,"\n")
 print("3(iii).Example of Popping the membrane of list of a dictionary using pop function:")
 print("Pop last membrane of list of dictionary by default:")
 students.pop()
-print(students)
+print(students,"\n")
 print("Pop by index of list of dictionary:")
 y=students.pop(0)
 print(y,"\n")
@@ -166,41 +196,57 @@ print(y,"\n")
 #[{'1.key:': 'value', '2.key:': 'value', '3.key:': 'value'}
 #{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
 #{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}
-# {'adds a new key:': 'adds a new value'}]
+# {'adds a new key:': 'adds a new value'}
+#{'1.add a key:': '1.add a value'}, 
+# {'2.add a key:': '2.add a value'}]
+
 
 #3(i).Example of Delete the membrane in list of a dictionary using delete function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 #{'Name:': 'Husnain', 'Age:': '18', 'Gender:': 'Male'}
 #{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
- #{'Phone Number:': '031234567'}]
+#{'Phone Number:': '031234567'}
+# {'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'},
+# {'Name:': 'Merub', 'Age': '9', 'Gender': 'Female'}]
+
 
 #3.(ii)Remove Function the membrane in list of a dictionary:
 #3(ii).Syntax of Remove the membrane in list of a dictionary using Remove function:
 #list of dictionary name . dot remove function(given membrane you want to remove)
 #[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
 # {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'} 
-# {'adds a new key:': 'adds a new value'}]
+# {'adds a new key:': 'adds a new value'}
+#  {'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'},
+#  {'Name:': 'Merub', 'Age': '9', 'Gender': 'Female'}]
 
 
 #3(ii).Example of Remove the membrane in list of a dictionary using Remove function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'},
 # {'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
-#{'Phone Number:': '031234567'}]
+#{'Phone Number:': '031234567'}
+#{'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'},
+#  {'Name:': 'Merub', 'Age': '9', 'Gender': 'Female'}]     
+
 
 #3(iii).Popping Function the membrane of list of a dictionary:
 #3(iii).Syntax of Popping the membrane of list of a dictionary using pop function:
 #list of dictionary name . dot pop function(if empty by default it last membrane or you given index remove that membrane  you given index )
 #Pop last membrane of list of dictionary by default:
 #[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}
-#{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'}]       
-
+#{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'} 
+# {'adds a new key:': 'adds a new value'},
+#  {'1.add a key:': '1.add a value'}]
+     
 #Pop by index of list of dictionary:
 #{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}
 
 #3(iii).Example of Popping the membrane of list of a dictionary using pop function:
 #Pop last membrane of list of dictionary by default:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
-#{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}]
+#{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}
+#{'Phone Number:': '031234567'}, 
+# {'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'}]
+
 #Pop by index of list of dictionary:
 #{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 
