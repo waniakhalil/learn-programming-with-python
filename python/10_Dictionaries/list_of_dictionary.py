@@ -42,6 +42,7 @@ print(students,'\n')
 
 # <<<<<<<<<<<<<<<<<<<<<<Perform list Operation on Creating a list of dictionary>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+print("Perform list Operation on Creating a list of dictionary:")
 #1.Accessing list membrane from a list of dictionary:
 print("1.Accessing list membrane from a list of dictionary:")
 print("1.Syntax of Accessing list membrane from a list of dictionary:")
@@ -51,6 +52,7 @@ print("1.Example of Accessing list membrane from a list of dictionary:")
 print(students[0]['Name:'],'\n')
 
 #Output:
+#Perform list Operation on Creating a list of dictionary:
 #1.Accessing list membrane from a list of dictionary:
 #1.Syntax of Accessing list membrane from a list of dictionary:
 #list f dictionary name [index of list][dictionary key name]
@@ -216,9 +218,8 @@ print(y,"\n")
 #[{'i.key:': 'value', 'ii.key:': 'value', 'iii.key:': 'value'}, 
 # {'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'} 
 # {'adds a new key:': 'adds a new value'}
-#  {'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'},
-#  {'Name:': 'Merub', 'Age': '9', 'Gender': 'Female'}]
-
+#{'1.add a key:': '1.add a value'}
+# {'2.add a key:': '2.add a value'}]
 
 #3(ii).Example of Remove the membrane in list of a dictionary using Remove function:
 #[{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'},
@@ -250,9 +251,45 @@ print(y,"\n")
 #Pop by index of list of dictionary:
 #{'Name:': 'Wania', 'Age:': '20', 'Gender:': 'Female'}
 
+#4.Finding a membrane in list of a dictionary:
+#There are two ways of finding a membrane in list of a dictionary
+#4.(i) Finding a membrane in list of dictionary through a index function:
+print("4.(i) Finding a membrane in list of dictionary through a index function:")
+print("4.(i)Syntax of Finding a membrane in list of dictionary through a index function:")
+print("list of a dictionary name (.)dot index function (membrane you want find in list of dictionary)")
+print("List of dictionary of mydic:")
+print(mydic,"\n")
+index=mydic.index({'1.add a key:': '1.add a value'})
+print("Index of membrane {'1.add a key:': '1.add a value'} is:",index,"\n")
+print("4.(i) Finding a membrane in list of dictionary through a index function:")
+print("list of dictionary of students:")
+print(students,"\n")
+indexs=students.index({'Phone Number:': '031234567'})
+print("Index of membrane {'Phone Number:': '031234567'} is:",indexs,"\n")
+
+#Output:
+#4.(i) Finding a membrane in list of dictionary through a index function:
+#4.(i)Syntax of Finding a membrane in list of dictionary through a index function:
+#list of a dictionary name (.)dot index function (membrane you want find in list of dictionary)
+#List of dictionary od mydic:
+#[{'1,key:': 'value', '2,key:': 'value', '3,key:': 'value'},
+#{'adds a new key:': 'adds a new value'},
+#{'1.add a key:': '1.add a value'}]
+
+#Index of membrane {'1.add a key:': '1.add a value'} is: 2
+
+#4.(i) Finding a membrane in list of dictionary through a index function:
+#list of dictionary of students:
+#[{'Name:': 'Sawera', 'Age:': '16', 'Gender:': 'Female'}, 
+# {'Phone Number:': '031234567'}, 
+# {'Name:': 'Ubaidullah', 'Age:': '10', 'Gender:': 'Male'}]
+
+#Index of membrane {'Phone Number:': '031234567'} is: 1
+
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Other More Function in a list of dictionary:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 #1.Check the length of the list of dictionary:
+print("Other More Function in a list of dictionary")
 print("1.Check the length of the list of dictionary:")
 print("1.Syntax of check the lenght of the list of dictionary:")
 print("lenght function len(list of a dictionary name)")
@@ -262,6 +299,7 @@ print("Example of lenght of students: ")
 print(len(students),"\n")
 
 #Output:
+#Other More Function in a list of dictionary:
 #1.Check the length of the list of dictionary:
 #1.Syntax of check the lenght of the list of dictionary:
 #lenght function len(list of a dictionary name)
