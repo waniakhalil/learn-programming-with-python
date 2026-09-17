@@ -50,8 +50,8 @@ print('\n')
 #112
  
 
- #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Methods to pass a value in a function >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-print("Methods to pass a value in a function:")
+ #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Methods to pass a value in a arguments of a  function >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+print("Methods to pass a value in a arguments of a function:","\n")
 
 #function always same work we call the function we supply the value and perform the task ?
 # 1.Funtion: Passing information positional arguments or parameterised function :
@@ -134,7 +134,8 @@ fullName(last="Chaudhary",first="Wania",middle="Khalil") # Keyword argument
 # if you dont want pass all arguments keyword of parameter which argument pass keyword paramter in a last 
 # beacuse positional arguments follow keyword argument:
 print("Example of positional arguments follow keyword argument:")
-fullName('Wania','Khalil',last='Chaudhary'),"\n"
+fullName('Wania','Khalil',last='Chaudhary')
+print("\n")
 
 # Output:
 #3.Example of Passing information keywords of paramter in arguments:
@@ -145,3 +146,40 @@ fullName('Wania','Khalil',last='Chaudhary'),"\n"
 
 #Example of positional arguments follow keyword argument:
 #WaniaKhalilChaudhary
+
+
+#<<<<<<<<<<<<<<<<<<<<<<<<<Methods to pass a value in a parameters in a function>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+print("Methods to pass a value in a parameters in a function:","\n")
+
+ 
+# 1.Function:Default Value parameter 
+#A default parameter is a parameter that already has a value in the function definition. If the user does not provide a value, Python uses the default value.
+
+print("1.Example of Default value parameter:")
+def add(number1=0,number2=0):
+     print(number1+number2)
+
+# Call the Default Value parameter function:
+add(number2=5)
+# There are times when some parameter value are optional but still you need a default a value in case if someone 
+# does not provide the value to any void any non deterministic behaviour 
+# if a user not given arguments in a call of function if a function excute we given default value used in a parameter
+# if user given arguments default parameter is not used
+
+# Note 
+# if you pass default parameters pass in last of list not first and end in definition  of function
+print("Another Example of Default value parameter:")
+def fullName(first,last,middle=" "):
+     print(first+middle+last)
+fullName("Wania",'Chaudhary')
+
+#Output:
+#Methods to pass a value in a parameters in a function:
+
+#1.Example of Default value parameter:
+#5
+#Another Example of Default value parameter:
+#Wania Chaudhary
+
+
+
