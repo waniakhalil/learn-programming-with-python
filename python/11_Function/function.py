@@ -1,3 +1,5 @@
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< <<<<Function>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 # Function:
 # What is function,why use ,importance and used ?
 
@@ -19,10 +21,10 @@ print("Function Syntax or define:")
 print("In python we define a function with a keyword def then the function name after the name of function we supply pair of  parentheses and a colon sign")
 
 # Syntax or definition of function Example:
-
 # def is definition of function add is a function name () small brackets or braces  : colon is indicate block of statement 
 # after block is body of function start in the wirte of code in function we call function write code in function is execute
 # function is slient mode then we call the function 
+
 print("Example of definition of function:")
 print("Function of Adds two number get input from user:","\n")
 def add(): 
@@ -35,6 +37,7 @@ def add():
 # How to call a function:
 # to call the function we just need to write the name of function followed by parathenes 
 add() # call the function of adds two number get input from user
+print('\n')
 
 #Output:
 #Function Syntax or define:
@@ -45,10 +48,13 @@ add() # call the function of adds two number get input from user
 #Enter a value:45 
 #Enter a value:67
 #112
+ 
 
+ #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Methods to pass a value in a function >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+print("Methods to pass a value in a function:")
 
-#function always same work we call the function we supply the value and perform the task
-# Funtion: Passing information positional arguments or parameterised function :
+#function always same work we call the function we supply the value and perform the task ?
+# 1.Funtion: Passing information positional arguments or parameterised function :
 #A generic function does not define any data it processes inside it hard-coded instead it accepts the data when it is
 # called and processes that data 
 
@@ -56,9 +62,10 @@ add() # call the function of adds two number get input from user
 # def is keyword word indicates the function is start then function name (in given parameters or variable) : colon is indicate the 
 # block of statement is start then start of body of function
 
-print("Example of Passing information positional arguments in function:")
-# in definition of function variable are parameter
+# Paramter definition:
+# in definition of function variable are parameter the passes 
 #           paramenters
+print("1.Example of Passing information positional arguments in function:")
 def adds(number1,number2): # parameterised function 
      print(number1+number2)
 
@@ -66,23 +73,75 @@ def adds(number1,number2): # parameterised function
 #Example:
 #Here value 3 will be assigned in number1 while value5 will be assigned to number2 variable this will assigned according to postion
 
-#   passing the values in function or arguments
-adds(3,5) # dynamic value
+#  Arguments definition:
+# passing the values in function or arguments
+adds(3,5) # dynamic value or postional arguments 
 # 3 and 5 in parameters variable according to assignment by a postion of parameters
 
+print("Another Example of Passing information positional arguments in function:")
+def fullName(first,middle,last):
+      print(first+middle+last)
+fullName("Wania","Khalil","Chaudhary")#Sequence matters in positional arguments 
+print('\n')
 # Note:
 # two or more parmeter and arguments passing in function
 
-# parmater less function
-print("Example of parmaeter less function")
+# Output:
+#Methods to pass a value in a function:
+#1.Example of Passing information positional arguments in function:
+#8
+
+#Another Example of Passing information positional arguments in function:
+#WaniaKhalilChaudhary
+
+
+# 2.parmater less function
+print("2.Example of parmaeter less function")
 # in () small brackets is empty not parameter is pass is called parameter less function
 def add():
      print("I am parameter less function")
 add() # hard coded
+print("\n")
 
 # Output:
-#Example of Passing information positional arguments in function:
+#2.Example of parmaeter less function
+#I am parameter less function
+
+
+# If position is disturbed we use keyword of parameter in arguments
+# 3.Function: Passing information keywords arguments
+#In Python, keyword arguments are used to pass information to a function by specifying the parameter name.
+
+# Syntax of passing information keyword of parameter in argument same as assing information as arguments in function:
+print("3.Example of Passing information keywords of paramter in arguments:")
+def add(number1,number2):
+     print(number1+number2)
+
+# Call the function of passing information keyword arguments:
+add(number1=3,number2=5)
+#There is another way to call same function of adds  that we pass the arguments with the name of a variable 
+#this way position does not matter but the value is assigned to matching variable in function 
+# it is not assign by position like assing information as arguments in function it we assigned keyword of parameter 
+# will be assigned
+# Attache keyword with arguments
+
+print("Another Example of passing information keywords of parameter:")
+def fullName(first,middle,last):
+     print(first+middle+last)
+fullName(last="Chaudhary",first="Wania",middle="Khalil") # Keyword argument 
+
+# Note:
+# if you dont want pass all arguments keyword of parameter which argument pass keyword paramter in a last 
+# beacuse positional arguments follow keyword argument:
+print("Example of positional arguments follow keyword argument:")
+fullName('Wania','Khalil',last='Chaudhary'),"\n"
+
+# Output:
+#3.Example of Passing information keywords of paramter in arguments:
 #8
 
-#Example of parmaeter less function
-#I am parameter less function
+#Another Example of passing information keywords of parameter:
+#WaniaKhalilChaudhary
+
+#Example of positional arguments follow keyword argument:
+#WaniaKhalilChaudhary
