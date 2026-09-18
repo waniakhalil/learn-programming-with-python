@@ -215,6 +215,7 @@ print("Another Example of Default value parameter:")
 def fullName(first,last,middle=" "):
      print(first+middle+last)
 fullName("Wania",'Chaudhary')
+print("\n")
 
 #Output:
 #Methods to pass a value in a parameters in a function:
@@ -223,6 +224,24 @@ fullName("Wania",'Chaudhary')
 #5
 #Another Example of Default value parameter:
 #Wania Chaudhary
+
+
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Functions Passing information back from them >>>>>>>>>>>>>>>>>>>>>>>>
+
+#Functions are only performs a given task when they are called. but a function may also return some value to user 
+#this returned value can be assigned, reused and be modified them
+# return the value uuse return keyword
+# we call the function task perform of body the return on called 
+# in return multiples values store in tuple form
+
+print("Example of Functions Passing information back from them:")
+def add(val1,val2):
+     ans =val1+val2
+     return ans,"hello Function"
+
+result=add(4,2)
+print(result)
+
 
 
 
