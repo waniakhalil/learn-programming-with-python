@@ -239,10 +239,40 @@ def add(val1,val2):
      ans =val1+val2
      return ans,"hello Function"
 
-result=add(4,2)
-print(result)
+result=add(4,2) 
+#   6    4+2=6
+print(result,"\n")
 
 
+# Output:
+
+#Example of Functions Passing information back from them:
+#(6, 'hello Function')
+
+
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<  Using Function  as variable  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+#                          which is what they really are
+
+# Functions can be used as variable. this is done by using function call in our expression
+# function variable used must value is returned if function return not value erroe
+
+print("Example of Using Function as variable: ")
+def add(a,b):
+     return a+b
+
+def sub(b,a):
+     return a-b
+      
+      # function variable
+result=   add(2,3)         +   sub(2,3)
+#5+1=6    =  2+3=5            + 3-2=1
+# this line called expression because function used as expression
+print(result,"\n")
+
+# Output:
+
+#Example of Using Function as variable:
+#6
 
 
 
