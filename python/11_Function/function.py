@@ -17,6 +17,9 @@
 # If we given task perform many times we write one time in function then we need to use this function we call many times the function and the function perform task 
 
 # Function Syntax or define:
+import string
+
+
 print("Function Syntax or define:")
 print("In python we define a function with a keyword def then the function name after the name of function we supply pair of  parentheses and a colon sign")
 
@@ -45,9 +48,9 @@ print('\n')
 #Example of definition of function:
 #Function of Adds two number get input from user:
 
-#Enter a value:45 
-#Enter a value:67
-#112
+#Enter a value:45         number1
+#Enter a value:67         number2
+#112                  (number1+number2)
  
 
  #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Methods to pass a value in a arguments of a  function >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -89,7 +92,7 @@ print('\n')
 # Output:
 #Methods to pass a value in a function:
 #1.Example of Passing information positional arguments in function:
-#8
+#8     (3,5)
 
 #Another Example of Passing information positional arguments in function:
 #WaniaKhalilChaudhary
@@ -139,13 +142,53 @@ print("\n")
 
 # Output:
 #3.Example of Passing information keywords of paramter in arguments:
-#8
+#8       number1=3,number2=5
 
 #Another Example of passing information keywords of parameter:
 #WaniaKhalilChaudhary
 
 #Example of positional arguments follow keyword argument:
 #WaniaKhalilChaudhary
+
+
+#function:4.Dealing with an unknown number of arguments
+#In some cases we can not actually guess how many arguments user would pass when calling function 
+# so we need a parameter that can take all values provide by user 
+# if you given chocie user from input and choose or not known user passes agruments  use this function 
+
+# Arbitray Number:
+#If you dont known how many user pass the arguments is called abitary number 
+
+print("4.Example of Dealing with an unknown number of arguments:")
+                                      # abitary parameter 
+def display_nums(first_num,second_num,*opt_num):
+     print(first_num)
+     print(second_num)
+     print(opt_num) # optional number 
+
+#Note:
+# Here we see a parameter with (*),this parameter will deal with abitary number 
+# * means which variable have * store one or more value 
+# We store one or more value get from user and store in tuple form of * variable
+# abitary parameter also write in last of list of a variable if you dont do that mix all vairables value
+
+                  # opt_ number
+display_nums(2,4,6,7,8,9,10)
+
+print("Another Example of Dealing with an unknown number of arguments:")
+def pizzaorder(size,flavour,*topping): # deal with arbitray arguments
+     print(f"you order for pizza a size {size} and flavour {flavour} and topping {topping} is ready")
+pizzaorder("large","Chickentikka","topping=Olive","Mushrooms")
+
+print("\n")
+
+# Output:
+#4.Example of Dealing with an unknown number of arguments:
+#2              first_num
+#4              second_num
+#(6, 7, 8, 9, 10)     *opt_num
+#Another Example of Dealing with an unknown number of arguments:
+#you order for pizza a size large and flavour Chickentikka and topping ('topping=Olive', 'Mushrooms') is ready
 
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<Methods to pass a value in a parameters in a function>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -180,6 +223,7 @@ fullName("Wania",'Chaudhary')
 #5
 #Another Example of Default value parameter:
 #Wania Chaudhary
+
 
 
 
