@@ -10,8 +10,8 @@
 
 # Difference between for and while loop:
 
-# for loop start and end of sudden point of during excution
-# While loop  provide chocie to user loop terminate any sudden point or end of excution of loop
+# for loop start and end of sudden point of during excute
+# While loop  provide chocie to user loop terminate any sudden point or end of excute  of loop
 
 # For termination using flags is variable we set a condition in while loop if condition come true or fale terminate
 
@@ -28,7 +28,7 @@ print('while loop key word while then condition (:) colon start of block of stat
 print("Example of While loop:")
 
 a=0
-while a<10: # While loop condition is false is terminate when condition is true is excute 
+while a<=10: # While loop condition is false is terminate when condition is true is excute 
     print(a,"This is a while loop printing ") 
     a+=1
 print("\n")
@@ -48,12 +48,15 @@ print("\n")
 #7 This is a while loop printing 
 #8 This is a while loop printing 
 #9 This is a while loop printing 
+#10 This is a while loop printing
 
 print("Example of  user input using while loop:")
 a=0
 while a<10:
     userinput=input("Enter your Favourite car:")
     a+=1
+
+print("\n")
 
 # Ouput:
 
@@ -67,3 +70,27 @@ while a<10:
 #Enter your Favourite car:corolla
 #Enter your Favourite car:audi
 #Enter your Favourite car:Tesla
+
+
+# Control is not definite and loop is also not definite because  user have control user given how many values or not 
+# depend on user or quit of loop on chocie of user 
+# While loop given user to chocie of execution and add how many value or not in loop is also called flag or terminate 
+print("Example of setting a flag in a while loop:")
+flag=True
+favcars=[]
+while flag:
+    userinput=input("Enter your Favourite car:")
+    if userinput=="Q":
+     flag=False
+    else:
+      favcars.append(userinput)
+print(favcars)
+
+#Output:
+
+#Example of setting a flag in a while loop:
+#Enter your Favourite car:bmw
+#Enter your Favourite car:coralla
+#Enter your Favourite car:audi
+#Enter your Favourite car:Q
+#['bmw', 'coralla', 'audi']
