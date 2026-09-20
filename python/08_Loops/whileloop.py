@@ -29,24 +29,41 @@ print("Example of While loop:")
 
 a=0
 while a<10: # While loop condition is false is terminate when condition is true is excute 
-    print(a,"This is a while loop") 
+    print(a,"This is a while loop printing ") 
     a+=1
+print("\n")
 
 # Output:
 #Syntax of While loop:
 #while loop key word while then condition (:) colon start of block of statement or body of loop then given one or more statemnent 
 
 #Example of While loop:
-#0 This is a while loop
-#1 This is a while loop
-#2 This is a while loop
-#3 This is a while loop
-#4 This is a while loop
-#5 This is a while loop
-#6 This is a while loop
-#7 This is a while loop
-#8 This is a while loop
-#9 This is a while loop
+#0 This is a while loop printing 
+#1 This is a while loop printing 
+#2 This is a while loop printing 
+#3 This is a while loop printing 
+#4 This is a while loop printing 
+#5 This is a while loop printing 
+#6 This is a while loop printing 
+#7 This is a while loop printing 
+#8 This is a while loop printing 
+#9 This is a while loop printing 
 
+print("Example of  user input using while loop:")
+a=0
+while a<10:
+    userinput=input("Enter your Favourite car:")
+    a+=1
 
+# Ouput:
 
+#Example of  user input using while loop:
+#Enter your Favourite car:bwm
+#Enter your Favourite car:toyota
+#Enter your Favourite car:civic
+#Enter your Favourite car:alto
+#Enter your Favourite car:supra
+#Enter your Favourite car:ferria
+#Enter your Favourite car:corolla
+#Enter your Favourite car:audi
+#Enter your Favourite car:Tesla
