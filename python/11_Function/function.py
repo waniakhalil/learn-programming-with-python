@@ -271,8 +271,46 @@ print(result,"\n")
 
 # Output:
 
-#Example of Using Function as variable:
+#Example of Using Function as variable
 #6
+
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<local vs Globol variable>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# Local Variable:
+# local variable are the variable defined inside the functions.there scope is only inside the function.
+# they are not accessible outside the function
+
+# Globol Variable:
+#Globol variable  are the variables defined outside the function and can be accessed and modified outside the function.
+# defined also inside and accessed in the function 
+
+print("Example of Local Variable:")
+def beHappy():
+     name="Wania Khalil" # Local variable
+     print(f"{name} is very happy today")
+
+beHappy()
+
+#print(name) not defined outside the function we can not accessed and modified it is local variable 
+
+print("\n")
+
+print("Example of Globol Variable:")
+
+anothername="Wania Chaudhary"
+def beSad(): 
+     print(f"{anothername} is very sad today") # global varibale 
+
+beSad()
+print(anothername)
+# Output:
+#Example of Local Variable:
+#Wania Khalil is very happy today
+
+#Example of Globol Variable:
+#Wania Chaudhary is very sad today
+# Wania Chaudhary 
+     
 
 
 
