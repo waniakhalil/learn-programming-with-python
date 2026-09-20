@@ -274,6 +274,7 @@ print(result,"\n")
 #Example of Using Function as variable
 #6
 
+
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<local vs Globol variable>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # Local Variable:
@@ -303,6 +304,8 @@ def beSad():
 
 beSad()
 print(anothername)
+print("\n")
+
 # Output:
 #Example of Local Variable:
 #Wania Khalil is very happy today
@@ -310,7 +313,37 @@ print(anothername)
 #Example of Globol Variable:
 #Wania Chaudhary is very sad today
 # Wania Chaudhary 
-     
+
+
+ # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Functions with in Function >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+ # Right now we have learned how to call a function.we can call a function inside another funvtion
+ # providing the required signture of the function 
+ # we made one function in block of function we call another function
+ # we call function body another function
+ 
+print("Example of Functions with in Function:")
+
+def comissionCalcular(sales):
+     if sales>100:
+          return sales*100
+     elif sales>50:
+          return sales*50
+     elif sales>20:
+          return sales*20
+     else:
+          return 0
+
+def salaryCalcular(basic,sales):
+      grossSalary =basic*comissionCalcular(sales)
+      print (f"Your grosssalary is {grossSalary}")
+
+salaryCalcular(5000,150)
+    
+# Output:
+
+#Example of Functions with in Function:
+#Your grosssalary is 75000000   #(5000,150)
 
 
 
