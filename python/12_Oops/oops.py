@@ -88,8 +88,15 @@
 #  create a object we can access attributes nad behavouoir in object  from class and also change
 
 print("Example of classes and object:")
+ # initialize syntax:
+ #to create a class in initialize its attributes, we commonly use the __init__() method.
+ #class ClassName:
+   #def __init__(self, parameters):
+       # self.attribute = parameters
+# self is first parameter in initialize is not must write self name you can change according to you
+
 class Car():
- # attributes >>>>>>>> are variables in programming
+    # attributes >>>>>>>> are variables in programming
     def __init__(self,make,model,year):
         self.make=make
         self.model=model
@@ -104,3 +111,7 @@ class Car():
         print(f"{self.make} is moving with speed")
     def applyingbreak(self):
         print(f"{self.model} has appled the break")
+
+# How to create object of a class:
+car1=Car('Honda',"Civic",2019)
+car2=Car("Suzuki","Alto",2015)
