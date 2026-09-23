@@ -102,6 +102,7 @@ class Car():
         self.make=make
         self.model=model
         self.year=year
+        self.battery="200amp" # default attribute because he not come from intailize 
 
 # behaviour >>>>>>>>>> are function in programming 
     def description(self):
@@ -112,42 +113,91 @@ class Car():
         print(f"{self.make} is moving with speed")
     def applyingbreak(self):
         print(f"{self.model} has appled the break")
+    def descriptionbattery(self):
+        print(f"The battery of car is {self.battery}")
 
+    #Changing value attribute function:
+    def setbatterysize(self,newsize):
+        self.battery=newsize 
+    def getbatterysize(self):
+        print(f"The size of your car battery is {self.battery}")
+   
 # How to create object of a class:
 car1=Car('Honda',"Civic",2019)
 car2=Car("Suzuki","Alto",2015)
 
 print(car1.make)
-print(car2.make)
 print(car1.model)
-print(car2.model)
+print(car1.year)
+print(car1.battery,"\n")
+
 car1.description()
+car1.move()
+car1.applyingbreak()
+car1.descriptionbattery()
+
+print("\n")
+
+print(car2.make)
+print(car2.model)
+print(car2.year)
+print(car2.battery,"\n")
+
 car2.description()
+car2.move()
+car2.applyingbreak()
+car2.descriptionbattery()
+
 print("\n")
 
 # Output:
-
 #Example of classes and object: 
 
 #Honda
-#Suzuki
 #Civic
-#Alto
+#2019
+#200amp
+
 #The make of Car:Honda
 #The model of Car:Civic
 #The year of Car:2019
+#Honda is moving with speed
+#Civic has appled the break
+#The battery of car is 200amp
+
+#Suzuki
+#Alto
+#2015
+#200amp
+
 #The make of Car:Suzuki
 #The model of Car:Alto
 #The year of Car:2015
+#Suzuki is moving with speed
+#Alto has appled the break
+#The battery of car is 200amp
 
 
-# Changing an attributes value
+# Changing an attributes value:
+
+# There are two ways of changing an attributes value in a class:
+#1.Direct hit the attribute
+#2.Via function (get set)
+
 # Object through assign new value in a attribute and update a attribute value
+# Object thorough direct hit the variable change the value and also accesses
+
 print("Example of Changing an attribute value:","\n")
 car1.model="corallo"
 car1.description()
+car1.battery="300amp"
+car1.descriptionbattery()
+print("\n")
+
 car2.year="2011"
 car2.description()
+print("\n")
+
 
 # Output:
 #Example of Changing an attribute value:
@@ -155,6 +205,25 @@ car2.description()
 #The make of Car:Honda
 #The model of Car:corallo
 #The year of Car:2019
+#The battery of car is 300amp
+
 #The make of Car:Suzuki
 #The model of Car:Alto
 #The year of Car:2011
+
+
+# Changing value of attribute through function
+# not direct hite the property or attribute 
+print("Example Changing value of attribute through function:","\n")
+
+car1.getbatterysize()
+car2.getbatterysize()
+car2.setbatterysize("500amp")
+car2.getbatterysize()
+
+# Output:
+#Example Changing value of attribute through function:
+
+#The size of your car battery is 300amp
+#The size of your car battery is 200amp
+#The size of your car battery is 500amp
