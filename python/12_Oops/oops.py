@@ -87,13 +87,14 @@
 # now complete example of classes and object 
 #  create a object we can access attributes nad behavouoir in object  from class and also change
 
-print("Example of classes and object:")
+print("Example of classes and object:",'\n')
  # initialize syntax:
  #to create a class in initialize its attributes, we commonly use the __init__() method.
  #class ClassName:
    #def __init__(self, parameters):
        # self.attribute = parameters
 # self is first parameter in initialize is not must write self name you can change according to you
+# self make every object make attribute and behaviour copy
 
 class Car():
     # attributes >>>>>>>> are variables in programming
@@ -115,3 +116,45 @@ class Car():
 # How to create object of a class:
 car1=Car('Honda',"Civic",2019)
 car2=Car("Suzuki","Alto",2015)
+
+print(car1.make)
+print(car2.make)
+print(car1.model)
+print(car2.model)
+car1.description()
+car2.description()
+print("\n")
+
+# Output:
+
+#Example of classes and object: 
+
+#Honda
+#Suzuki
+#Civic
+#Alto
+#The make of Car:Honda
+#The model of Car:Civic
+#The year of Car:2019
+#The make of Car:Suzuki
+#The model of Car:Alto
+#The year of Car:2015
+
+
+# Changing an attributes value
+# Object through assign new value in a attribute and update a attribute value
+print("Example of Changing an attribute value:","\n")
+car1.model="corallo"
+car1.description()
+car2.year="2011"
+car2.description()
+
+# Output:
+#Example of Changing an attribute value:
+
+#The make of Car:Honda
+#The model of Car:corallo
+#The year of Car:2019
+#The make of Car:Suzuki
+#The model of Car:Alto
+#The year of Car:2011
