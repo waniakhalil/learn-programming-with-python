@@ -43,7 +43,7 @@
 #                         read mode 
 # with open("myFile.txt","r") as file:
 #    varivale store a file content 
-#    contents_of_file=                file read()
+#    contents_of_file=                file.read()
 # print(content_of_file)
 
 # Note:if file does not exist "r" mode will throw file not found error
@@ -67,3 +67,14 @@
 #1. r+  mode allows read and write in file (reading mode) not create a file  or error 
 #2. w+  mode allows read and write in file (writing mode) also create a file 
 #                               both function write in updated version mode 
+
+print("1.Example of Reading Mode in datafile")
+# open function return handler function
+with open("python/13_Datafiles/testingdatafile.txt","r") as file:
+    content=file.read()
+print(content)
+
+#Output:
+
+#1.Example of Reading Mode in datafile
+#this is a test file .we will read the file from python code
